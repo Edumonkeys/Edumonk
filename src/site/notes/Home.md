@@ -1,5 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"],"noteIcon":""}
 ---
 
-# <center> EduMonkeys <font color="#ffffff">Into the world dasfj </font>| [[About\|About]]</center>
+# <center>EduMonkeys</center>
+[[About \| :luc_menu:]]
