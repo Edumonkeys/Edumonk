@@ -8,4 +8,4 @@
 
   
 
-This is a sample page where you can switch [[about \| between]] light and dark themes
+This is a sample page where you can switch [[about \| between]] light and dark themes :luc_instagram: :luc_facebook: :luc_mail:
