@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/about/"}
+{"dg-publish":true,"permalink":"/about/","contentClasses":"","noteIcon":""}
 ---
 
 Where are you
@@ -8,3 +8,6 @@ Where are you
 [[Blogs\|Blogs]]
 
 [[Instagram\|Instagram]]
+# [[Home \|Home ]]
+
+# alone and the world int
