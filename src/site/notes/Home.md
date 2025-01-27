@@ -9,3 +9,13 @@
   
 
 This is a sample page where you can switch between light and dark themes!
+
+
+```tabs
+tab: EduMonkey
+Welcome All
+
+
+tab: Edumonk
+ How Are You
+```
