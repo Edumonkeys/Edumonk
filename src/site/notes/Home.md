@@ -2,5 +2,6 @@
 {"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"],"noteIcon":true}
 ---
 
-# <center>EduMonkeys</center>
-[[About \|:luc_menu:]] When 
+# <div style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Edumonkeys</div>
+## [[About \|:luc_menu:]] When Good to Go 
+
