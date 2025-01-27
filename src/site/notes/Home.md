@@ -3,19 +3,9 @@
 ---
 
 
-
+# [[About \| :luc_menu:]]
 # <font color="#92d050">Welcome to My Digital Garden</font>
 
   
 
-This is a sample page where you can switch between light and dark themes!
-
-
-```tabs
-tab: EduMonkey
-Welcome All
-
-
-tab: Edumonk
- How Are You
-```
+This is a sample page where you can switch [[about \| between]] light and dark themes
