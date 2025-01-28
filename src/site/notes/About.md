@@ -9,5 +9,3 @@ Where are you
 
 [[Instagram\|Instagram]]
 # [[Home \|Home ]]
-
-# alone and the world int
