@@ -2,6 +2,13 @@
 * DO NOT ADD/MODIFY STYLING HERE. IT WILL BE OVERWRITTEN IF YOU UPDATE THE TEMPLATE VERSION.
 * MODIFY THE custom-style.scss FILE INSTEAD.
 ***/
+/* Import Roboto Slab font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+/* Apply the font to your body or any specific element */
+body {
+    font-family: 'Roboto Slab', serif;
+}
 
 body {
     /* Animations */
@@ -608,9 +615,9 @@ body {
   }
 
   body {
-    --font-default: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-default: ui-sans-serif, system-ui, -apple-system,"Roboto slab", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     ;
-    --font-monospace-default: Menlo, SFMono-Regular, Consolas, "Roboto Mono", 'Source Code Pro', monospace;
+    --font-monospace-default: Menlo, SFMono-Regular, Consolas, "Roboto slab', "Roboto Mono", 'Source Code Pro', monospace;
     --font-interface-override: '??';
     --font-interface-theme: '??';
     --font-interface: var(--font-interface-override), var(--font-interface-theme), var(--default-font, '??'), var(--font-default);
