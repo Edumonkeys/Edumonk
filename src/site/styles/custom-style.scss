@@ -10,4 +10,53 @@ body {
     //  h1 {
     //   color: black;
     //  }
+/* Importing Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap');
+
+/* Importing Custom Fonts */
+@font-face {
+    font-family: 'Lemon Tuesday';
+    src: url('https://myfonts-static.s3.amazonaws.com/fonts/lemon-tuesday.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Recoleta Demo';
+    src: url('https://myfonts-static.s3.amazonaws.com/fonts/recoleta-demo.ttf') format('truetype');
+}
+
+/* Styling Body */
+body {
+    font-family: 'Roboto Slab', 'Merriweather', serif; /* Primary: Roboto Slab, Secondary: Merriweather */
+    color: black; /* Set font color to black */
+}
+
+/* Specific Font Classes */
+.recoleta-demo {
+    font-family: 'Recoleta ', serif;
+}
+
+.lemon-tuesday {
+    font-family: 'Lemon Tuesday', cursive;
+}
+
+.roboto-slab {
+    font-family: 'Roboto Slab', serif;
+}
+
+.merriweather {
+    font-family: 'Merriweather', serif;
+}
+
+/* Example styling for content */
+.content {
+    font-size: 14px;
+}
+
+h1 {
+    color: black;
+}
+
+
+
+    
 }
