@@ -18,6 +18,16 @@ Ooh-ooh, aah-aah! Welcome to **Edumonkeys** — the coolest jungle where learn
 - **Our Monkey Journey:** Stories of struggles and victories.
 
 
+
+
+
+
+
+
+
+![Pasted image 20250128233433.png](/img/user/ApePasalai/Shadow%20Attachments/Pasted%20image%2020250128233433.png)
+
+
 >[!Note]
 >The New World of the Wrk has been start
 
