@@ -6,7 +6,7 @@
 
 ![200](https://i.imgur.com/lqpQxzc.png)<p align="right">[[Menu\|Menu]]</p>
 
-[[Index\|Index]]
+[[Main\|Main]]
 ---
 
 ![400](https://i.imgur.com/tc3URDE.png)      
