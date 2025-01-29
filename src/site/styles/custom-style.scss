@@ -4,8 +4,13 @@
 
 /* Apply the font to your body or any specific element */
 body {
-    font-family: 'Roboto Slab', serif;
-    color: black;
+    
+     backgroung-color: black;
+    
+    .content{
+        font-family: 'Roboto Slab', serif;
+        color: black;
+    }
     
 }
 
