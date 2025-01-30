@@ -12,7 +12,7 @@ Where are you
 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/03c783ab-cee1-483c-ab18-cbdc458069b7/deploy-status)](https://app.netlify.com/sites/edumonkeys/deploys)
-
+	 
 
 
 ![EduMonkeys.gif](/img/user/ApePasalai/Shadow%20Attachments/EduMonkeys.gif)
