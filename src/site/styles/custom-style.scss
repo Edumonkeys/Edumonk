@@ -57,7 +57,26 @@ body.theme-light {
   --interactive-accent: #004d61;
   --h1-color: var(--interactive-accent);
 }
- #theme-switch {
+  #floating-control {
+    position: fixed;
+    color: var(--link-color);
+    bottom: 1vmax;
+    right: 1vmax;
+    font-size: 24px;
+    z-index: 999999;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 5px;
+
+    .svg-icon,
+    i {
+      cursor: pointer;
+      height: 24px;
+      width: auto;
+    }
+
+    #theme-switch {
       .light {
         display: none;
       }
