@@ -26,11 +26,11 @@ The New World is going to the good for all of as and the world in the the good a
 
 **Ther are coming** [[Website/Home\|Home]] 
 
-
+	
 
 <div style="background-color: #f9f6f3;
 width: 100%;
-height: 500px;
+height: 400px;
 margin: auto;
 align-content: center;
 text-align: center;
@@ -38,6 +38,8 @@ border-radius: 20px;
 padding: 20px;">
 
     <p>![Screenshot 2025-01-29 000703 (1).png| 700](/img/user/ApePasalai/Shadow%20Attachments/Screenshot%202025-01-29%20000703%20(1).png)</p>
+{ #8228b8}
+
 </div>
 
 

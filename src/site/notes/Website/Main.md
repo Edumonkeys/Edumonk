@@ -3,7 +3,7 @@
 ---
 
 
-![](https://i.imgur.com/tc3URDE.png)<p align="right">[[Home \| Menu]]</p>
+![ [[Website/Start Up\|Start Up]]](https://i.imgur.com/tc3URDE.png)<p align="right">[[Home \| Menu]]</p>
 
 
 
@@ -31,8 +31,7 @@ This page has a grainy noise background and uses the fonts Roboto Slab and Merri
 
 
 
-![Pasted image 20250128233433.png](/img/user/ApePasalai/Shadow%20Attachments/Pasted%20image%2020250128233433.png)
->
+<p>![[Pasted image 20250128233433.</p>
 
 
 >[!Note]
@@ -175,3 +174,14 @@ This page has a grainy noise background and uses the fonts Roboto Slab and Merri
 
 
 <div style="min-height: 58px;max-width: 440px;margin: 0 auto;width: 100%"><script src="https://cdn.jsdelivr.net/ghost/signup-form@~0.2/umd/signup-form.min.js" data-button-color="#4b413b" data-button-text-color="#FFFFFF" data-site="https://edumonkeys.ghost.io/" data-locale="en" async></script></div>
+
+
+[![](/img/user/ApePasalai/Shadow Attachments/Pasted image 20250128233433.png)]([[Linked Note\|Linked Note]])
+
+
+https://i.imgur.com/tc3URDE.png
+[[Website/Start Up#^8228b8\|Start Up#^8228b8]]
+
+
+
+# Blogs & Articles
