@@ -169,3 +169,9 @@ This page has a grainy noise background and uses the fonts Roboto Slab and Merri
     </div>
 
 </body>
+
+
+
+
+
+<div style="min-height: 58px;max-width: 440px;margin: 0 auto;width: 100%"><script src="https://cdn.jsdelivr.net/ghost/signup-form@~0.2/umd/signup-form.min.js" data-button-color="#4b413b" data-button-text-color="#FFFFFF" data-site="https://edumonkeys.ghost.io/" data-locale="en" async></script></div>
