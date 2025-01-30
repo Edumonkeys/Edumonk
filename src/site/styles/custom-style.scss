@@ -3,15 +3,15 @@
 
 /* Default theme variables */
 :root {
-    --font-family: 'Roboto Slab', serif;
+    --font-family: 'Roboto Slab','Times New Roman', Times, serif;
     --background-light: #ffffff;
-    --background-dark: #000000;
+    --background-dark: #151515;
     --text-light: #000000;
     --text-dark: #ffffff;
-    --accent-light: #004d61;
-    --accent-dark: #006f8b;
-    --hover-light: #006f8b;
-    --hover-dark: #0084a5;
+    --accent-light: #a186f1;
+    --accent-dark: #a186f1;
+    --hover-light: #a186f1;
+    --hover-dark: #a186f1;
     --transition-speed: 0.3s ease-in-out;
 }
 
