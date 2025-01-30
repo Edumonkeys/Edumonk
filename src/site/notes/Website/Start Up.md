@@ -28,9 +28,16 @@ The New World is going to the good for all of as and the world in the the good a
 
 
 
-<div style="width: 700px;height: 300px;background-color: antiquewhite;border-radius: 15px;text-align: center;">
+<div style="background-color: #f9f6f3;
+width: 100%;
+height: 500px;
+margin: auto;
+align-content: center;
+text-align: center;
+border-radius: 20px;
+padding: 20px;">
 
-    <p>![Pasted image 20250128233433.png](/img/user/ApePasalai/Shadow%20Attachments/Pasted%20image%2020250128233433.png)</p>
+    <p>![[Screenshot 2025-01-29 000703 (1).png| 700]</p>
 </div>
 
 
@@ -46,10 +53,4 @@ The New World is going to the good for all of as and the world in the the good a
 </div></center>
 
 
-
-
-
-
-
-
-
+![[Screenshot 2025-01-29 000703 (1).png \| 700]]
