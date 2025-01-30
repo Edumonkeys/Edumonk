@@ -1,65 +1,73 @@
-
 /* Import Roboto Slab font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
 
-/* Apply the font to your body or any specific element */
-body {
-    
-   
-    
-    .content{
-        font-family: 'Roboto Slab', serif;
-        color: black;
-    }
-    .dataview.inline-field-standalone-value{
-        font-family: 'Roboto Slab', serif;
-        color: black;
-    }
-    .dataview.inline-field-value{
-        font-family: 'Roboto Slab', serif;
-        color: black;
-    }
-    .dataview.inline-field-key{
-        font-family: 'Roboto Slab', serif;
-        color: black;
-    }
-    .callout{
-        font-family: 'Roboto Slab', serif;
-        color: black;
-    }
+/* Default theme variables */
+:root {
+    --font-family: 'Roboto Slab', serif;
+    --background-light: #ffffff;
+    --background-dark: #000000;
+    --text-light: #000000;
+    --text-dark: #ffffff;
+    --accent-light: #004d61;
+    --accent-dark: #006f8b;
+    --hover-light: #006f8b;
+    --hover-dark: #0084a5;
+    --transition-speed: 0.3s ease-in-out;
 }
 
-
+/* Apply styles to body */
 body {
-    /***
-      ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  } 
+    font-family: var(--font-family);
+    background-color: var(--background-light);
+    color: var(--text-light);
+    transition: background-color var(--transition-speed), color var(--transition-speed);
 }
 
+/* Dark theme */
 body.theme-dark {
-  --text-accent: #006f8b;
-  --text-accent-hover: #0084a5;
-  --interactive-accent: #006f8b;
-  --h1-color: var(--interactive-accent);
+    background-color: var(--background-dark);
+    color: var(--text-dark);
+}
+
+/* Apply to content elements */
+.content,
+.dataview.inline-field-standalone-value,
+.dataview.inline-field-value,
+.dataview.inline-field-key,
+.callout {
+    font-family: var(--font-family);
+    color: inherit;
+}
+
+/* Accent colors */
+body.theme-dark {
+    --text-accent: var(--accent-dark);
+    --text-accent-hover: var(--hover-dark);
+    --interactive-accent: var(--accent-dark);
+    --h1-color: var(--interactive-accent);
 }
 
 body.theme-light {
-  --text-accent: #004d61;
-  --text-accent-hover: #006f8b;
-  --interactive-accent: #004d61;
-  --h1-color: var(--interactive-accent);
+    --text-accent: var(--accent-light);
+    --text-accent-hover: var(--hover-light);
+    --interactive-accent: var(--accent-light);
+    --h1-color: var(--interactive-accent);
 }
-  #floating-control {
+
+/* Hover effects */
+a, button {
+    color: var(--text-accent);
+    transition: color var(--transition-speed);
+}
+
+a:hover, button:hover {
+    color: var(--text-accent-hover);
+}
+
+/* Floating control styles */
+#floating-control {
     position: fixed;
-    color: var(--link-color);
+    color: var(--text-accent);
     bottom: 1vmax;
     right: 1vmax;
     font-size: 24px;
@@ -68,43 +76,31 @@ body.theme-light {
     flex-direction: column;
     justify-content: flex-end;
     gap: 5px;
+    transition: color var(--transition-speed);
+}
 
-    .svg-icon,
-    i {
-      cursor: pointer;
-      height: 24px;
-      width: auto;
-    }
+#floating-control .svg-icon,
+#floating-control i {
+    cursor: pointer;
+    height: 24px;
+    width: auto;
+}
 
-    #theme-switch {
-      .light {
-        display: none;
-      }
+/* Theme switch visibility */
+#theme-switch .light,
+#theme-switch .dark,
+#theme-switch .auto {
+    display: none;
+}
 
-      .dark {
-        display: none;
-      }
+#theme-switch.light .light {
+    display: inline;
+}
 
-      .auto {
-        display: none;
-      }
-    }
+#theme-switch.dark .dark {
+    display: inline;
+}
 
-    #theme-switch.light {
-      .light {
-        display: inline;
-      }
-    }
-
-    #theme-switch.dark {
-      .dark {
-        display: inline;
-      }
-    }
-
-    #theme-switch.auto {
-      .auto {
-        display: inline;
-      }
-    }
-  }
+#theme-switch.auto .auto {
+    display: inline;
+}
