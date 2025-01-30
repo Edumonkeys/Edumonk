@@ -44,3 +44,13 @@
 ---
 
 ![400](https://i.imgur.com/tc3URDE.png)      
+
+
+
+
+```button
+name edu
+type link
+action obsidian://open?vault=Tamilzhazhgan-Old&file=EduMonkeys
+```
+^button-bh4b

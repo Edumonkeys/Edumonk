@@ -25,4 +25,10 @@
 The New World is going to the good for all of as and the world in the the good area , The Charatered Accountant and all the other Things are in the World in the good issue and so on the field of Works in the good is the 
 
 **Ther are coming** [[Website/Home\|Home]] 
- 
+
+```button
+name Home
+type link
+action obsidian://open?vault=Tamilzhazhgan&file=Website%2FHome
+```
+^button-rfv2
