@@ -37,7 +37,7 @@ text-align: center;
 border-radius: 20px;
 padding: 20px;">
 
-    <p>![[Screenshot 2025-01-29 000703 (1).png| 700]</p>
+    <p>![Screenshot 2025-01-29 000703 (1).png| 700](/img/user/ApePasalai/Shadow%20Attachments/Screenshot%202025-01-29%20000703%20(1).png)</p>
 </div>
 
 
