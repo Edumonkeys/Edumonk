@@ -26,9 +26,22 @@ The New World is going to the good for all of as and the world in the the good a
 
 **Ther are coming** [[Website/Home\|Home]] 
 
-```button
-name Home
-type link
-action obsidian://open?vault=Tamilzhazhgan&file=Website%2FHome
-```
-^button-rfv2
+
+
+<div style="width: 700px;height: 300px;background-color: antiquewhite;border-radius: 15px;text-align: center;">
+
+    <a href=""><image src="https://i.imgur.com/eH7LBQZ.png"></image><a>
+    </a>
+</div>
+
+
+<center>
+<div style="width: 700px;height: 300px;background-color: antiquewhite;border-radius: 15px;text-align: center;justify-items: center;">
+
+    <a href=""><image src="https://i.imgur.com/eH7LBQZ.png"></image><a>
+
+  
+
+    </a>
+
+</div></center>
