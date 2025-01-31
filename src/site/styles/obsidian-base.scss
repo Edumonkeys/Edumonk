@@ -2713,7 +2713,7 @@ body {
   .is-translucent:not(.is-fullscreen) .titlebar,
   .is-translucent:not(.is-fullscreen) .app-container {
     background-color: var(--workspace-background-translucent);
-  }
+ /* }
   .is-translucent:not(.is-fullscreen) .workspace-ribbon.mod-left,
   .is-translucent:not(.is-fullscreen) .workspace-tabs,
   .is-translucent:not(.is-fullscreen) .mod-left-split .workspace-tab-header-container,
@@ -2722,7 +2722,7 @@ body {
   .is-translucent:not(.is-fullscreen) .workspace-tabs .workspace-leaf,
   .is-translucent:not(.is-fullscreen) .workspace-ribbon.mod-left:before {
     background-color: transparent;
-  }
+  } */
   .workspace {
     background-color: var(--background-primary);
     display: flex;
