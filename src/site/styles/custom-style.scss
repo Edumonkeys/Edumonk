@@ -106,7 +106,25 @@ a:hover, button:hover {
 }
 
 /* sidebar  */
- .sidebar-container {
+
+.sidebar {
+  .toc-container {
+    max-height: unset;
+
+    @media (max-width: 1400px) {
+      max-height: 320px;
+    }
+  }
+
+  .backlinks {
+    flex: unset;
+
+    @media (max-width: 1400px) {
+      order: 3;
+    }
+  }
+}
+.sidebar-container {
     &>div:not(.graph) {
       width: 320px;
       max-height: 365px;
@@ -120,7 +138,7 @@ a:hover, button:hover {
     }
   }
 
-  nav.filetree-sidebar {
+nav.filetree-sidebar {
     top: 85px;
     left: 20px;
     position: fixed;
@@ -142,16 +160,6 @@ a:hover, button:hover {
       overflow-x: hidden;
       margin-right: -10px;
     }
-      .sidebar {
-  .toc-container {
-    max-height: unset;
-
-    @media (max-width: 1400px) {
-      max-height: 320px;
-    }
-  }
-
-
 
 
 
