@@ -1,48 +1,64 @@
 ---
-dg-publish: true
-permalink: /website/home/
-contentClasses: ''
-tags:
-  - gardenEntry
-noteIcon: false
+{"dg-publish":true,"permalink":"/website/home/","contentClasses":"","tags":["gardenEntry"],"noteIcon":false}
 ---
 
-# Home
+<!DOCTYPE html>
 
-&#x20; &#x20;
+<html lang="en">
 
-&#x20; &#x20;
+<head>
 
-&#x20;  HomE BOX
+    <meta charset="UTF-8">
 
-&#x20; &#x20;
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-&#x20; &#x20;
+    <title>HomE BOX</title>
 
-&#x20;       body{
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
 
-&#x20;           font-family: 'Roboto slab', 'Merriweather','Times New Roman', Times, serif;
+    <style>
 
-&#x20;           color: black;
+        body{
 
-&#x20;           background-color: #f2ede8;
+            font-family: 'Roboto slab', 'Merriweather','Times New Roman', Times, serif;
 
-&#x20;       }
+            color: black;
 
-&#x20; &#x20;
+            background-color: #f2ede8;
 
-![200](https://i.imgur.com/lqpQxzc.png)
+        }
 
-\[\[Menu|Menu]]
+    </style>
 
-### \[\[Website/Main|Main]]
+</head>
 
-![400](https://i.imgur.com/tc3URDE.png)
+<body>
+
+</body>
+
+</html>
+
+![200](https://i.imgur.com/lqpQxzc.png)<p align="right">[[Menu\|Menu]]</p>
+
+[[Website/Main\|Main]]
+---
+
+![400](https://i.imgur.com/tc3URDE.png)      
+
+[Main](Home.md)
+
 
 ```button
 name edu
 type link
 action obsidian://open?vault=Tamilzhazhgan-Old&file=EduMonkeys
-```
+```{ #button-bh4b}
 
-^button-bh4b
+
+
+
+
+
+
+
+[undertaker](obsidian://open?vault=Tamilzhazhgan&file=Website%2FAbout)

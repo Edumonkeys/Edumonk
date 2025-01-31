@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/website/start-up/","dgShowFileTree":"false","noteIcon":""}
 ---
 
-
+[jump](Home.md)
 
 <html lang="en">
 <head>
@@ -94,3 +94,7 @@ padding: 20px;">
 </body>
 
 </html>
+
+
+
+[Welcome](Home.md)

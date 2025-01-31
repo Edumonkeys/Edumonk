@@ -1,20 +1,18 @@
 ---
-dg-publish: true
-permalink: /website/about/
-contentClasses: ''
-noteIcon: ''
+{"dg-publish":true,"permalink":"/website/about/","contentClasses":"","noteIcon":""}
 ---
 
-# About
+Where are you
+[[Website/Home\|Home]]
 
-Where are you \[\[Website/Home|Home]]
+[[Blogs\|Blogs]]
 
-\[\[Blogs|Blogs]]
+[[Instagram\|Instagram]]
+# [[Home \|Home ]]
 
-\[\[Instagram|Instagram]]
-
-## \[\[[Home |Home ](<Start Up.md>)]]
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/03c783ab-cee1-483c-ab18-cbdc458069b7/deploy-status)](https://app.netlify.com/sites/edumonkeys/deploys)
+	 
 
-![EduMonkeys.gif](../../../../img/user/ApePasalai/Shadow%20Attachments/EduMonkeys.gif)
+
+![EduMonkeys.gif](/img/user/ApePasalai/Shadow%20Attachments/EduMonkeys.gif)
