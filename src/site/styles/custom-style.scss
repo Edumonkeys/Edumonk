@@ -106,7 +106,7 @@ a:hover, button:hover {
 }
 
 /* sidebar  */
-.sidebar-container {
+ .sidebar-container {
     &>div:not(.graph) {
       width: 320px;
       max-height: 365px;
@@ -141,8 +141,8 @@ a:hover, button:hover {
       overflow-y: auto;
       overflow-x: hidden;
       margin-right: -10px;
-
-        .sidebar {
+    }
+      .sidebar {
   .toc-container {
     max-height: unset;
 
@@ -150,7 +150,6 @@ a:hover, button:hover {
       max-height: 320px;
     }
   }
-    
 
 
 
