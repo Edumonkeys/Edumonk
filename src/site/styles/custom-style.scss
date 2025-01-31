@@ -141,7 +141,8 @@ a:hover, button:hover {
       overflow-y: auto;
       overflow-x: hidden;
       margin-right: -10px;
-    sidebar {
+
+        .sidebar {
   .toc-container {
     max-height: unset;
 
@@ -149,6 +150,7 @@ a:hover, button:hover {
       max-height: 320px;
     }
   }
+    
 
 
 
