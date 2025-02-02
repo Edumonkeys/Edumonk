@@ -25,19 +25,23 @@ jobs:
       # Step 3: Sync Notes to Docusaurus Docs
       - name: Sync Notes to Docusaurus Docs
         run: |
-          rsync -av --delete notes/ docusaurus-repo/my-website/docs/  # Sync 'notes/' to 'my-website/docs/'
+          echo "Syncing notes to Docusaurus docs..."
+          rsync -av --delete notes/ Docs/my-website/docs/
+          echo "Notes synced successfully!"
 
       # Step 4: Sync Images to Docusaurus Static Folder
       - name: Sync Images to Docusaurus Static Folder
         run: |
-          rsync -av --delete img/ docusaurus-repo/my-website/static/img/  # Sync 'img/' to 'my-website/static/img/'
+          echo "Syncing images to Docusaurus static folder..."
+          rsync -av --delete img/ Docs/my-website/static/img/
+          echo "Images synced successfully!"
 
-      # Step 5: Commit Changes to the Docusaurus Repo
+      # Step 5: Commit and Push Changes to the Docusaurus Repo
       - name: Commit Changes to Docusaurus Repo
         run: |
-          cd docusaurus-repo  # Enter the Docusaurus repo directory
+          cd Docs  # Enter the Docusaurus repo directory
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add .  # Stage all changes
-          git commit -m "Sync notes and images from source repo" || echo "No changes to commit"  # Commit only if there are changes
-          git push origin main  # Push changes to the Docusaurus repo
+          git diff --cached --quiet || git commit -m "Sync notes and images from source repo"
+          git push origin main || echo "No changes to push"
