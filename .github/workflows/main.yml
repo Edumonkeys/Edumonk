@@ -14,13 +14,27 @@ jobs:
       - name: Checkout Source Repo
         uses: actions/checkout@v2
 
+      # Debugging: List source files
+      - name: List Source Files
+        run: |
+          echo "Listing notes directory:"
+          ls -al notes/
+          echo "Listing images directory:"
+          ls -al img/
+
       # Step 2: Checkout the Docusaurus Repository
       - name: Checkout Docusaurus Repo
         uses: actions/checkout@v2
         with:
-          repository: Edumonkeys/Docs  # Replace with your actual Docusaurus repo
+          repository: Edumonkeys/Docs  # Correct repository name
           token: ${{ secrets.GITHUB_TOKEN }}  # GitHub token for authentication
           path: Docs  # The folder where the Docusaurus repo is cloned
+
+      # Debugging: List Docusaurus files
+      - name: List Docusaurus Files
+        run: |
+          echo "Listing my-website directory in Docusaurus repo:"
+          ls -al Docs/my-website/
 
       # Step 3: Sync Notes to Docusaurus Docs
       - name: Sync Notes to Docusaurus Docs
@@ -36,7 +50,13 @@ jobs:
           rsync -av --delete img/ Docs/my-website/static/img/
           echo "Images synced successfully!"
 
-      # Step 5: Commit and Push Changes to the Docusaurus Repo
+      # Step 5: Set Permissions (if needed)
+      - name: Set Permissions on Docusaurus Directories
+        run: |
+          chmod -R 755 Docs/my-website/docs/
+          chmod -R 755 Docs/my-website/static/img/
+
+      # Step 6: Commit Changes to the Docusaurus Repo
       - name: Commit Changes to Docusaurus Repo
         run: |
           cd Docs  # Enter the Docusaurus repo directory
