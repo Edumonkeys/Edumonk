@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: Edumonkeys/Docs  # Replace with your actual Docusaurus repo
-          token: ${{ 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 }}  # GitHub token for authentication
+          token: ${{ secrets.GITHUB_TOKEN }}  # GitHub token for authentication
           path: Docs  # The folder where the Docusaurus repo is cloned
 
       # Step 3: Sync Notes to Docusaurus Docs
